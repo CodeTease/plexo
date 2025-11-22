@@ -1,6 +1,6 @@
 # Plexo
 
-**Plexo** synchronizes your `.prettierrc`, `.gitignore`, and other configs from a central source to your projects.
+**Plexo** synchronizes your `.prettierrc`, `.gitignore`, and other configs from a central source to your projects. 
 
 ## Quick Start
 ```bash
@@ -25,6 +25,8 @@ plexo sync
 ```
 
 > You also need **Python** to run Plexo.
+
+*(I don't know if Python is necessary, but it works though.)*
 
 ## License
 
