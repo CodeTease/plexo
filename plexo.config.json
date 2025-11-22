@@ -1,0 +1,6 @@
+{
+  "sourceDir": "./plexo-templates",
+  "variables": {
+    "PROJECT_NAME": "ProjectX"
+  }
+}
