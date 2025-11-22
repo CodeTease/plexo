@@ -1,7 +1,5 @@
 # Plexo
 
-**IN DEVELOPMENT STAGE**
-
 **Plexo** synchronizes your `.prettierrc`, `.gitignore`, and other configs from a central source to your projects.
 
 ## Quick Start
@@ -25,6 +23,8 @@ plexo sync
   }
 }
 ```
+
+> You also need **Python** to run Plexo.
 
 ## License
 

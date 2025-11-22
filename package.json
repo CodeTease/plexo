@@ -7,9 +7,15 @@
     "plexo": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "ts-node src/cli.ts"
+    "build": "tsc && node scripts/copy-assets.js",
+    "start": "ts-node src/cli.ts",
+    "prepublishOnly": "npm run build"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "codetease",
     "cli",
@@ -17,7 +23,7 @@
     "config",
     "dx"
   ],
-  "author": "CodeTease Team",
+  "author": "CodeTease",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
